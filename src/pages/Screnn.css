@@ -1,0 +1,71 @@
+.tela-inicial-container {
+    display: block;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px 0 0 220px;
+    font-family: sans-serif;
+    background-color: blue;
+    min-height: 100vh; /* Garante que ocupa a altura total da tela */
+}
+
+.tela-titulo {
+    color: whitesmoke;
+    margin-bottom: 30px; 
+    text-align: center;
+    font-size: 2.5em; 
+    padding: 0 350px 0 200px;
+}
+
+.tela-navegacao {
+    margin-bottom: 30px;
+}
+
+.tela-lista-links {
+    list-style: none;
+    padding: 0 100px 0 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.tela-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave */
+}
+
+.tela-link:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.tela-rotas-container {
+    width: 90%;  /*largura padrão */
+    max-width: 800px;  /*largura máxima */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Estilos específicos para os títulos dentro das rotas */
+.tela-rotas-container h2 {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 2em; /* Tamanho maior para os títulos das seções */
+}
+
+/* Estilos para parágrafos dentro das rotas */
+.tela-rotas-container p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
