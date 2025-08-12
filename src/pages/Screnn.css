@@ -1,20 +1,22 @@
 .tela-inicial-container {
-    display: block;
+    display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    padding: 20px 0 0 220px;
+    align-items: center;
+    padding: 20px;
     font-family: sans-serif;
     background-color: blue;
-    min-height: 100vh; /* Garante que ocupa a altura total da tela */
+    min-height: 100vh;
+    box-sizing: border-box; /* Garante que o padding não some à largura total */
 }
 
 .tela-titulo {
     color: whitesmoke;
     margin-bottom: 30px; 
     text-align: center;
-    font-size: 2.5em; 
-    padding: 0 350px 0 200px;
+    font-size: 2.5em;
+    width: 100%;
+    max-width: 800px; /* Limita a largura do título */
+    padding: 0 20px; /* Padding lateral responsivo */
 }
 
 .tela-navegacao {
